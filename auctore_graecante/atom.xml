@@ -1,0 +1,27 @@
+---
+layout: feed
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+	<title>Auctore Graecante</title>
+	<link href="http://ajicrawford.com/auctore_graecante/atom.xml" rel="self"/>
+	<link href="http://ajicrawford.com/auctore_graecante"/>
+	<updated>{{ site.time | date_to_xmlschema }}</updated>
+	<id>http://ajicrawford.com/auctore_graecante</id>
+	<author>
+		<name>A.J.I. Crawford</name>
+		<email>alexcrawford225@gmail.com</email>
+	</author>
+
+	{% for post in site.posts %}
+		<entry>
+			<title>{{ post.title }}</title>
+			<link href="http://ajicrawford.com/auctore_graecante{{ post.url }}"/>
+			<updated>{{ post.date | date_to_xmlschema }}</updated>
+			<id>http://ajicrawford.com/auctore_graecante{{ post.id }}</id>
+			<content type="html">{{ post.content | xml_escape }}</content>
+		</entry>
+	{% endfor %}
+
+</feed>
