@@ -1,2 +1,3 @@
 name: A. J. I. Crawford
 markdown: kramdown
+permalink: /blog/:year/:month/:day/:title
