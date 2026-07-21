@@ -41,6 +41,33 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
+ 
+@font-face {
+    font-family: 'Shin Retro Maru Gothic';
+    src: url('css/fonts/ShinRetroMaruGothic-Regular.woff2') format('woff2'),
+        url('css/fonts/ShinRetroMaruGothic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shin Retro Maru Gothic';
+    src: url('css/fonts/ShinRetroMaruGothic-Bold.woff2') format('woff2'),
+        url('css/fonts/ShinRetroMaruGothic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shin Retro Maru Gothic';
+    src: url('css/fonts/ShinRetroMaruGothic-Medium.woff2') format('woff2'),
+        url('css/fonts/ShinRetroMaruGothic-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
 
 .japanese-ShinMaruRetroGothic {
     font-family: 'Shin Maru Retro Gothic';
