@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'Shin Retro Maru Gothic';
-    src: url('ShinRetroMaruGothic-Regular.woff2') format('woff2'),
-        url('ShinRetroMaruGothic-Regular.woff') format('woff');
+    src: url('css/fonts/ShinRetroMaruGothic-Regular.woff2') format('woff2'),
+        url('css/fonts/ShinRetroMaruGothic-Regular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -9,8 +9,8 @@
 
 @font-face {
     font-family: 'Shin Retro Maru Gothic';
-    src: url('ShinRetroMaruGothic-Bold.woff2') format('woff2'),
-        url('ShinRetroMaruGothic-Bold.woff') format('woff');
+    src: url('css/fonts/ShinRetroMaruGothic-Bold.woff2') format('woff2'),
+        url('css/fonts/ShinRetroMaruGothic-Bold.woff') format('woff');
     font-weight: bold;
     font-style: normal;
     font-display: swap;
@@ -18,8 +18,8 @@
 
 @font-face {
     font-family: 'Shin Retro Maru Gothic';
-    src: url('ShinRetroMaruGothic-Medium.woff2') format('woff2'),
-        url('ShinRetroMaruGothic-Medium.woff') format('woff');
+    src: url('css/fonts/ShinRetroMaruGothic-Medium.woff2') format('woff2'),
+        url('css/fonts/ShinRetroMaruGothic-Medium.woff') format('woff');
     font-weight: 500;
     font-style: normal;
     font-display: swap;
