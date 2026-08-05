@@ -41,7 +41,37 @@ ul.posts {
 ul.posts li {
     list-style: none;
 }
- 
+
+.archive {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.archive-item {
+    flex: 1 1 calc(25% - 10px);
+    max-width: calc(25% - 10px);
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.archive-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+@media (max-width: 600px) {
+    .archive-item {
+        flex: 1 1 calc(50% - 10px);
+        max-width: calc(50% - 10px);
+    }
+}
+
 @font-face {
     font-family: 'Shin Retro Maru Gothic';
     src: url('/fonts/ShinRetroMaruGothic-Regular.woff2') format('woff2'),
