@@ -42,6 +42,8 @@ ul.posts li {
     list-style: none;
 }
 
+/* ARCHIVE FORMATTING */
+
 .archive {
     display: flex;
     flex-wrap: wrap;
@@ -73,6 +75,7 @@ ul.posts li {
     color: #f1f1f1;
     width: 100%;
     padding: 20px;
+    font-size: 0.2em;
 }
 
 @media (max-width: 600px) {
@@ -81,6 +84,8 @@ ul.posts li {
         max-width: calc(50% - 10px);
     }
 }
+
+/* FONT DEFINITIONS */
 
 @font-face {
     font-family: 'Shin Retro Maru Gothic';
