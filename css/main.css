@@ -54,8 +54,8 @@ ul.posts li {
 }
 
 .archive-item {
-    flex: 1 1 calc(25% - 10px);
-    max-width: calc(25% - 10px);
+    flex: 1 1 calc(50% - 10px);
+    max-width: calc(50% - 10px);
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
