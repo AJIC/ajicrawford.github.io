@@ -59,6 +59,7 @@ ul.posts li {
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    box-sizing: border-box
 }
 
 .archive-item img {
@@ -79,6 +80,7 @@ ul.posts li {
     font-size: 0.2em;
     opacity:0;
     text-align: left;
+    box-sizing: border-box
 }
 
 .archive-item:hover .archive-item-caption {
