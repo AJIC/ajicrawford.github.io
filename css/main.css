@@ -73,9 +73,16 @@ ul.posts li {
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5);
     color: #f1f1f1;
+    transition: .5s ease;
     width: 100%;
     padding: 20px;
     font-size: 0.2em;
+    opacity:0;
+    text-align: left;
+}
+
+.archive-item:hover .archive-item-caption {
+  opacity: 1;
 }
 
 @media (max-width: 600px) {
