@@ -113,8 +113,8 @@ ul.posts li {
 }
 
 .archive-item img {
-    width: 100%;
-    height: auto;
+    height: 30vh;
+    width: auto;
     display: block;
 }
 
