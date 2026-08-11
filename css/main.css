@@ -138,6 +138,7 @@ ul.posts li {
     color: white;
     font-size: 0.4em;
     text-align: left;
+    margin-top: 0px;
 }
 
 .archive-item:hover .archive-item-caption {
