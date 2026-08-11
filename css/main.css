@@ -68,7 +68,7 @@ ul.posts li {
     display: block;
 }
 
-.archive-item .archive-item-caption {
+.archive-item-caption {
     position: absolute;
     bottom: 0;
     background: rgb(0, 0, 0);
