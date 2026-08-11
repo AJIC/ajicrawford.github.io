@@ -105,6 +105,7 @@ ul.posts li {
 .archive-item {
     flex: 1 1 calc(50% - 10px);
     max-width: calc(50% - 10px);
+    height: 30vh;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -113,7 +114,7 @@ ul.posts li {
 }
 
 .archive-item img {
-    height: 30vh;
+    height: 100%;
     width: auto;
     display: block;
 }
