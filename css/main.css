@@ -1,3 +1,52 @@
+
+/* FONT DEFINITIONS */
+
+@font-face {
+    font-family: 'Shin Retro Maru Gothic';
+    src: url('/fonts/ShinRetroMaruGothic-Regular.woff2') format('woff2'),
+        url('/fonts/ShinRetroMaruGothic-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shin Retro Maru Gothic';
+    src: url('/fonts/ShinRetroMaruGothic-Bold.woff2') format('woff2'),
+        url('/fonts/ShinRetroMaruGothic-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Shin Retro Maru Gothic';
+    src: url('/fonts/ShinRetroMaruGothic-Medium.woff2') format('woff2'),
+        url('/fonts/ShinRetroMaruGothic-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.japanese-ShinRetroMaruGothic {
+    font-family: 'Shin Retro Maru Gothic';
+}
+
+@font-face {
+    font-family: 'Goudy Bookletter 1911';
+    src: url('/fonts/GoudyBookletter1911.woff2') format('woff2'),
+        url('/fonts/GoudyBookletter1911.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+.GoudyBookletter1911 {
+    font-family: 'Goudy Bookletter 1911';
+}
+
+/* BASIC STUFF */
+
 body {
     margin: 60px auto;
     width: 70%;
@@ -82,6 +131,7 @@ ul.posts li {
     text-align: left;
     box-sizing: border-box;
     margin: 0;
+    font-family: 'Goudy Bookletter 1911';
 }
 
 .archive-item-caption p {
@@ -99,50 +149,4 @@ ul.posts li {
         flex: 1 1 calc(50% - 10px);
         max-width: calc(50% - 10px);
     }
-}
-
-/* FONT DEFINITIONS */
-
-@font-face {
-    font-family: 'Shin Retro Maru Gothic';
-    src: url('/fonts/ShinRetroMaruGothic-Regular.woff2') format('woff2'),
-        url('/fonts/ShinRetroMaruGothic-Regular.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Shin Retro Maru Gothic';
-    src: url('/fonts/ShinRetroMaruGothic-Bold.woff2') format('woff2'),
-        url('/fonts/ShinRetroMaruGothic-Bold.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'Shin Retro Maru Gothic';
-    src: url('/fonts/ShinRetroMaruGothic-Medium.woff2') format('woff2'),
-        url('/fonts/ShinRetroMaruGothic-Medium.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-.japanese-ShinRetroMaruGothic {
-    font-family: 'Shin Retro Maru Gothic';
-}
-
-@font-face {
-    font-family: 'Goudy Bookletter 1911';
-    src: url('/fonts/GoudyBookletter1911.woff2') format('woff2'),
-        url('/fonts/GoudyBookletter1911.woff') format('woff');
-    font-weight: 500;
-    font-style: normal;
-    font-display: swap;
-}
-
-.GoudyBookletter1911 {
-    font-family: 'Goudy Bookletter 1911';
 }
