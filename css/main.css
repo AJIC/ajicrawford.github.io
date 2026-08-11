@@ -104,8 +104,9 @@ ul.posts li {
 
 .archive-item {
     flex: 1 1 calc(50% - 10px);
-    max-width: calc(50% - 10px);
+    max-width: calc(50% - 10px); 
     height: 30vh;
+    width: auto;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -137,7 +138,7 @@ ul.posts li {
 
 .archive-item-caption p {
     color: white;
-    font-size: 0.4em;
+    font-size: 0.5em;
     text-align: left;
     margin-top: 0px;
 }
