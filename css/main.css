@@ -106,7 +106,6 @@ ul.posts li {
     flex: 1 1 calc(50% - 10px);
     max-width: calc(50% - 10px); 
     height: 30vh;
-    width: auto;
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
